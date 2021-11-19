@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
+
 function Portfolio() {
 	const projects = [
 		{
@@ -88,6 +89,7 @@ function Portfolio() {
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project projects={projects[0]}></Project>
+						
 					</li>
 					<li className="padding">
 						<Project projects={projects[1]}></Project>

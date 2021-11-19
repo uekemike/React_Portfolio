@@ -8,7 +8,7 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={require('../../assets/images/Ufuoma.PNG')}
+					src={require('../../assets/images/Ufuoma.PNG').default}
 					alt="about-me"
 					className="photo"
 				/>
@@ -18,7 +18,8 @@ function About() {
 				    QA Engineer currently learning to be a full stack developer at Gerogia Tech
 					bootcamp. Learning  new skils like JavaScript, CSS, React.js, and responsive web
 					design. With a focus on	mobile-first design and development. With each project,
-					my aim is to best engage my audience for an impactful user experience.
+					my aim is to imporve my skill set for a better understanding and to deliver my 
+					projects with industry best practice.
 				</p>
 			</div>
 		</section>
